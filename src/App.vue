@@ -1,17 +1,16 @@
 <template>
   <div id="app">
     <!-- <Header/> -->
-    <Header :logo="require('./assets/img/dark-pet-logo.png')"/>
-    <!-- <Navbar/>
-    <Hero/>
+    <!-- Creare -->
+    <Header :logo="require('./assets/img/dark-pet-logo.png')" :lists="menu"/>
+    <!-- <Hero/>
     <Main/>
-    <Footer/> -->
+    <Footer/>  -->
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-// import Navbar from './components/Navbar.vue'
 // import Hero from './components/Hero.vue'
 // import Main from './components/Main.vue'
 // import Footer from './components/Footer.vue'
@@ -20,14 +19,50 @@ export default {
   name: 'App',
   components: {
     Header
-    // Navbar,
     // Hero,
     // Main,
     // Footer
   },
   data(){
     return{
-
+      menu: [
+        {
+          titolo: 'Home',
+          url: '#',
+          stato: true,
+          chevron: true
+        },
+        {
+          titolo: 'Shop',
+          url: '#',
+          stato: false,
+          chevron: true
+        },
+        {
+          titolo: 'About',
+          url: '#',
+          stato: false,
+          chevron: false
+        },
+        {
+          titolo: 'Blog',
+          url: '#',
+          stato: false,
+          chevron: false
+        },
+        {
+          titolo: 'Contact',
+          url: '#',
+          stato: false,
+          chevron: false
+        },
+        {
+          titolo: 'Shop by brand',
+          url: '#',
+          stato: false,
+          chevron: true
+        }
+      ]
     }
   }
 }
