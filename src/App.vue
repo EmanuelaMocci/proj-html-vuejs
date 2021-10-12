@@ -1,10 +1,8 @@
 <template>
   <div id="app">
-    <!-- <Header/> -->
-    <!-- Creare -->
     <Header :logo="require('./assets/img/dark-pet-logo.png')" :lists="menu"/>
     <Hero/>
-    <!-- <Main/> -->
+    <Main/>
     <!-- <Footer/>  -->
   </div>
 </template>
@@ -12,7 +10,7 @@
 <script>
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
-// import Main from './components/Main.vue'
+import Main from './components/Main.vue'
 // import Footer from './components/Footer.vue'
 
 export default {
@@ -20,7 +18,7 @@ export default {
   components: {
     Header,
     Hero,
-    // Main,
+    Main,
     // Footer
   },
   data(){
@@ -72,5 +70,6 @@ export default {
 @import '~@fortawesome/fontawesome-free/css/all.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
 
 </style>

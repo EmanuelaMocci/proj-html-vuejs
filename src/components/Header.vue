@@ -38,17 +38,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/style/variables";
+@mixin centered {
+    max-width: 78%;
+    margin: auto;
+}
 
 .header{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $montserrat;
     hr{
-        border: 1px solid lightgray;
+        border: 1px solid $linkColor;
     }
 }
 .header-top{
     display: flex;
-    max-width: 78%;
-    margin: auto;
+    @include centered;
     padding: 20px 0;
 
     .header-left{
@@ -76,7 +80,7 @@ export default {
         align-items: center;
         padding-left: 100px;
         span{
-            font-size: 13px;
+            font-size: $fontDescription;
         }
         .icone{
             i{
@@ -96,8 +100,8 @@ export default {
                 list-style: none;
                 a{
                     text-decoration: none;
-                    color: gray;
-                    font-size: 13px;
+                    color: $darkLinkColor;
+                    font-size: $fontDescription;
                     cursor: pointer;
                 }
                 i{
@@ -107,7 +111,7 @@ export default {
             }
         }
         .active{
-            color: black;
+            color: $activeColor;
             font-weight: bold;
         }
     }

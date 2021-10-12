@@ -41,12 +41,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+@import "../assets/style/variables";
 
 .hero{
     background-image: url(../assets/img/bg-transparent-3.png);
-    background-color: #2a382a;
-    font-family: 'Montserrat', sans-serif;
+    background-color: $heroColor;
+    font-family: $montserrat;
 
     ul{
         display: flex;
@@ -55,7 +55,7 @@ export default {
         margin: auto;
         li{
             list-style: none;
-            color: white;
+            color: $textColor;
             padding: 20px 0px;
             font-size: 13px;
             i{
@@ -86,10 +86,10 @@ export default {
 
         }
         .description{
-        font-family: 'Scheherazade New', serif;
+        font-family: $heroFont;
         font-weight: 400;
-        font-size: 50px;
-        line-height: 1.2;
+        font-size: 40px;
+        line-height: $lineheight1;
         padding: 30px 0;
         }
         button{
@@ -108,14 +108,14 @@ export default {
         padding-top: 20px;
     }
     div{
-        color: white;
+        color: $textColor;
         padding-left: 20px;
-        font-size: 15px;
+        font-size: $fontHero;
     }
     a{
-        color: lightgray;
+        color: $linkColor;
         padding-left: 20px;
-        font-size: 15px;
+        font-size: $fontHero;
     }
 }
 </style>
