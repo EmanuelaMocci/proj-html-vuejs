@@ -28,6 +28,27 @@
                 </div>
             </div>
         </div>
+
+        <div class="dog-food-container">
+            <div class="dog-food">
+                <h2>Kibble</h2>
+                <div>Dry dog food</div>
+                <img src="../assets/img/food-transparent-18.png" alt="">
+                <button>Shop dry food</button>
+            </div>
+            <div class="dog-food">
+                <h2>Moist</h2>
+                <div>Canned dog food</div>
+                <img src="../assets/img/food-transparent-17.png" alt="">
+                <button>Shop dry food</button>
+            </div>
+            <div class="dog-food">
+                <h2>Frozen</h2>
+                <div>Freeze-Dried dog food</div>
+                <img src="../assets/img/food-transparent-16.png" alt="">
+                <button>Shop dry food</button>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -40,7 +61,7 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/style/variables";
 @mixin centered {
-    max-width: 78%;
+    max-width: 75%;
     margin: auto;
 }
 
@@ -70,13 +91,60 @@ export default {
 
         .img{
             img{
-                width: 270px;
+                width: 260px;
             }
             div{
                 text-align: center;
                 font-family: $montserrat;
                 margin: 20px 0 100px 0;
             }
+        }
+    }
+}
+.dog-food-container{
+    @include centered;
+    display: flex;
+    justify-content: space-between;
+    
+    .dog-food{
+        height: 470px;
+        width: 348px;
+        background-color: $heroColor;
+        background-image: url(../assets/img/bg-transparent-3.png);
+        background-repeat: repeat-x;
+        background-size: 280px;
+        background-position: center top;
+        text-align: center;
+
+        
+        h2{
+            color: $textColor;
+            font-weight: 300;
+            font-size: 30px;
+            padding-top: 40px;
+            line-height: 0.8;
+        }
+        div{
+            color: $dogFood;
+            font-family: $montserrat;
+            font-weight: 600;
+            font-size: $fontDescription;
+            letter-spacing: 1px;
+        }
+        img{
+            width: 218px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        button{
+            border: none;
+            color: $textColor;
+            background-color: $button;
+            padding: 10px 25px;
+            border-radius: 20px;
+            margin-top: 10px;
+            font-size: $fontDescription;
         }
     }
 }

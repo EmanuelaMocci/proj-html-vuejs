@@ -40,7 +40,7 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/style/variables";
 @mixin centered {
-    max-width: 78%;
+    max-width: 75%;
     margin: auto;
 }
 

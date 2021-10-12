@@ -75,7 +75,7 @@ export default {
     }
     .text{
         max-width: 35%;
-        padding-left: 11%;
+        padding-left: 12%;
         padding-top: 180px;
         position: absolute;
         bottom: 150px;
