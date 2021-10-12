@@ -79,7 +79,7 @@ export default {
     font-weight: 200;
     font-family: $heroFont;
     font-size: 30px;
-    color: #2a382a;
+    color: $h2Color;
 }
 
 .description{

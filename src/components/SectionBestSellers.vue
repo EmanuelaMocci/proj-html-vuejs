@@ -9,22 +9,22 @@
             <div class="img">
                 <img src="../assets/img/product-21-400x400.jpg" alt="">
                 <div>Transport cage</div>
-                <div>$25.00</div>
+                <div class="price">$25.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-20-400x400.jpg" alt="">
                 <div>Dog leash</div>
-                <div>$25.00</div>
+                <div class="price">$25.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-16-400x400.jpg" alt="">
                 <div>Animal transport cage</div>
-                <div><strike>$35.00</strike> $25.00</div>
+                <div class="price"><strike>$35.00</strike> $25.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-11-400x400.jpg" alt="">
                 <div>Colorful cat leash</div>
-                <div>$12.00</div>
+                <div class="price">$12.00</div>
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@ export default {
     font-weight: 200;
     font-family: $heroFont;
     font-size: 30px;
-    color: #2a382a;
+    color: $h2Color;
 }
 
 .best-seller{
@@ -92,6 +92,15 @@ export default {
                 text-align: center;
                 font-family: $montserrat;
                 margin: 15px 0;
+            }
+            .price{
+                font-size: $fontDescription;
+                color: $button;
+                font-weight: 500;
+                strike{
+                    font-size: 10px;
+                    padding-right: 3px;
+                }
             }
         }
     }
