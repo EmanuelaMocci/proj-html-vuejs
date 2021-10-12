@@ -32,6 +32,11 @@ export default {
     word-spacing: 2px;
     letter-spacing: 2px;
 }
+@mixin h2White{
+    color: $textColor;
+    font-family: $heroFont;
+    font-weight: 400;
+}
 
 .arrivals{
     @include centered;
@@ -61,9 +66,7 @@ export default {
 
         }
         .description{
-            color: $textColor;
-            font-family: $heroFont;
-            font-weight: 400;
+            @include h2White;
             font-size: 40px;
             line-height: $lineheight1;
             padding: 30px 0;

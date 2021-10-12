@@ -81,6 +81,12 @@ export default {
     font-size: 30px;
     color: $h2Color;
 }
+@mixin pawBackground{
+    background-image: url(../assets/img/bg-transparent-3.png);
+    background-color: $heroColor;
+    background-repeat: repeat-x;
+    background-size: 280px;
+}
 
 .description{
     .text{
@@ -123,10 +129,7 @@ export default {
     .dog-food{
         height: 470px;
         width: 348px;
-        background-color: $heroColor;
-        background-image: url(../assets/img/bg-transparent-3.png);
-        background-repeat: repeat-x;
-        background-size: 280px;
+        @include pawBackground;
         background-position: center top;
         text-align: center;
 
