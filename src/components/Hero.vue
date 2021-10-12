@@ -19,7 +19,7 @@
         <div class="banner-container">
             <div class="banner"></div>
             <div class="text">
-                    <div>FIND THE BEST ANIMAL SUPPLIES</div>
+                    <div class="title">FIND THE BEST ANIMAL SUPPLIES</div>
                     <div class="description">We know animals are a part of your family, let us help take care of them.</div>
                     <button>Learn more about us</button>
             </div>
@@ -42,10 +42,20 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/style/variables";
+@mixin button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: $fontDescription;
+}
+@mixin spacing{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
 
 .hero{
     background-image: url(../assets/img/bg-transparent-3.png);
-    background-repeat: no-repeat;
     background-color: $heroColor;
     font-family: $montserrat;
 
@@ -80,22 +90,22 @@ export default {
         padding-top: 180px;
         position: absolute;
         bottom: 150px;
-        div{
+        .title{
             color: $textColor;
             font-weight: 700;
             font-size: 11px;
+            @include spacing;
         }
         .description{
-        font-family: $heroFont;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: $lineheight1;
-        padding: 30px 0;
+            color: $textColor;
+            font-family: $heroFont;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: $lineheight1;
+            padding: 30px 0;
         }
         button{
-            border: none;
-            padding: 10px 20px;
-            border-radius: 20px;
+            @include button;
         }
     }
 }

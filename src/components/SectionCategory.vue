@@ -49,16 +49,6 @@
                 <button>Shop dry food</button>
             </div>
         </div>
-
-        <div class="arrivals">
-            <div class="text-container"></div>
-            <div class="text">
-                <div>FIND THE BEST ANIMAL SUPPLIES</div>
-                <div class="description">New arrivals weekly</div>
-                <button>Learn more about us</button>
-            </div>
-            <!-- <img src="../assets/img/banner-3-2x-scaled.jpg" alt=""> -->
-        </div>
     </div>
 </template>
 
@@ -74,6 +64,23 @@ export default {
     max-width: 75%;
     margin: auto;
 }
+@mixin button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: $fontDescription;
+}
+@mixin spacing{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+@mixin h2Title{
+    font-weight: 200;
+    font-family: $heroFont;
+    font-size: 30px;
+    color: #2a382a;
+}
 
 .description{
     .text{
@@ -82,10 +89,7 @@ export default {
         margin: 80px auto 50px auto;
 
         h2{
-        font-weight: 200;
-        font-family: $heroFont;
-        font-size: 30px;
-        color: #2a382a;
+        @include h2Title;
         }
         div{
             font-family: $montserrat;
@@ -126,7 +130,6 @@ export default {
         background-position: center top;
         text-align: center;
 
-        
         h2{
             color: $textColor;
             font-weight: 300;
@@ -148,56 +151,10 @@ export default {
             display: block;
         }
         button{
-            border: none;
+            @include button;
             color: $textColor;
             background-color: $button;
-            padding: 10px 25px;
-            border-radius: 20px;
-            margin-top: 10px;
-            font-size: $fontDescription;
         }
     }
 }
-.arrivals{
-    @include centered;
-    background-color: black;
-    position: relative;
-    .text-container{
-        margin-top: 100px;
-        background-image: url(../assets/img/banner-3-2x-scaled.jpg);
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 410px;
-        opacity: $opacity;
-    }
-
-    .text{
-        text-align: center;
-        position: absolute;
-        top: 120px;
-        left: 350px;
-        div{
-            color: $textColor;
-            font-weight: 700;
-            font-size: 11px;
-            font-family: $montserrat;
-        }
-        .description{
-            font-family: $heroFont;
-            font-weight: 400;
-            font-size: 40px;
-            line-height: $lineheight1;
-            padding: 30px 0;
-        }
-        button{
-            border: none;
-            padding: 10px 20px;
-            border-radius: 20px;
-            background-color: $textColor;
-        }
-    }
-}
-
-
 </style>
