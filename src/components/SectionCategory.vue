@@ -49,6 +49,16 @@
                 <button>Shop dry food</button>
             </div>
         </div>
+
+        <div class="arrivals">
+            <div class="text-container"></div>
+            <div class="text">
+                <div>FIND THE BEST ANIMAL SUPPLIES</div>
+                <div class="description">New arrivals weekly</div>
+                <button>Learn more about us</button>
+            </div>
+            <!-- <img src="../assets/img/banner-3-2x-scaled.jpg" alt=""> -->
+        </div>
     </div>
 </template>
 
@@ -145,6 +155,46 @@ export default {
             border-radius: 20px;
             margin-top: 10px;
             font-size: $fontDescription;
+        }
+    }
+}
+.arrivals{
+    @include centered;
+    background-color: black;
+    position: relative;
+    .text-container{
+        margin-top: 100px;
+        background-image: url(../assets/img/banner-3-2x-scaled.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 410px;
+        opacity: $opacity;
+    }
+
+    .text{
+        text-align: center;
+        position: absolute;
+        top: 120px;
+        left: 350px;
+        div{
+            color: $textColor;
+            font-weight: 700;
+            font-size: 11px;
+            font-family: $montserrat;
+        }
+        .description{
+            font-family: $heroFont;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: $lineheight1;
+            padding: 30px 0;
+        }
+        button{
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: $textColor;
         }
     }
 }

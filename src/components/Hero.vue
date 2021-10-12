@@ -45,6 +45,7 @@ export default {
 
 .hero{
     background-image: url(../assets/img/bg-transparent-3.png);
+    background-repeat: no-repeat;
     background-color: $heroColor;
     font-family: $montserrat;
 
@@ -70,7 +71,7 @@ export default {
         background-image: url(../assets/img/banner-5-2x-scaled.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        opacity: 0.8;
+        opacity: $opacity;
         height: 630px;
     }
     .text{
@@ -80,10 +81,9 @@ export default {
         position: absolute;
         bottom: 150px;
         div{
-            color: white;
+            color: $textColor;
             font-weight: 700;
             font-size: 11px;
-
         }
         .description{
         font-family: $heroFont;
