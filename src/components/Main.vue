@@ -4,6 +4,7 @@
         <SectionNewArrivals/>
         <SectionBestSellers/>
         <SectionTestimonials/>
+        <SectionNewsletter/>
     </div>
 </template>
 
@@ -12,6 +13,8 @@ import SectionCategory from './SectionCategory.vue';
 import SectionNewArrivals from './SectionNewArrivals.vue';
 import SectionBestSellers from './SectionBestSellers.vue';
 import SectionTestimonials from './SectionTestimonials.vue';
+import SectionNewsletter from './SectionNewsletter.vue';
+
 
 
 export default {
@@ -20,7 +23,8 @@ export default {
         SectionCategory,
         SectionNewArrivals,
         SectionBestSellers,
-        SectionTestimonials
+        SectionTestimonials,
+        SectionNewsletter
     }
 }
 </script>
