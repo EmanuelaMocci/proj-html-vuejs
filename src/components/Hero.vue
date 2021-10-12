@@ -16,11 +16,12 @@
                 We price match to give you the <strong>best deals</strong>
             </li>
         </ul>
-        <div class="banner">
+        <div class="banner-container">
+            <div class="banner"></div>
             <div class="text">
-                <div>FIND THE BEST ANIMAL SUPPLIES</div>
-                <div class="description">We know animals are a part of your family, let us help take care of them.</div>
-                <button>Learn more about us</button>
+                    <div>FIND THE BEST ANIMAL SUPPLIES</div>
+                    <div class="description">We know animals are a part of your family, let us help take care of them.</div>
+                    <button>Learn more about us</button>
             </div>
         </div>
         <div class="hero-bottom">
@@ -63,35 +64,40 @@ export default {
         }
     } 
 }
-.banner{
-    background-image: url(../assets/img/banner-5-2x-scaled.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    // opacity: 0.8;
-    height: 630px;
-        .text{
-            max-width: 35%;
-            padding-left: 15%;
-            padding-top: 180px;
-            div{
-                color: white;
-                font-weight: 700;
-                font-size: 11px;
+.banner-container{
+    position: relative;
+    .banner{
+        background-image: url(../assets/img/banner-5-2x-scaled.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        height: 630px;
+    }
+    .text{
+        max-width: 35%;
+        padding-left: 11%;
+        padding-top: 180px;
+        position: absolute;
+        bottom: 150px;
+        div{
+            color: white;
+            font-weight: 700;
+            font-size: 11px;
 
-            }
-            .description{
-            font-family: 'Scheherazade New', serif;
-            font-weight: 400;
-            font-size: 50px;
-            line-height: 1.2;
-            padding: 30px 0;
-            }
-            button{
-                border: none;
-                padding: 10px 20px;
-                border-radius: 20px;
-            }
         }
+        .description{
+        font-family: 'Scheherazade New', serif;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 1.2;
+        padding: 30px 0;
+        }
+        button{
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+    }
 }
 .hero-bottom{
     display: flex;
