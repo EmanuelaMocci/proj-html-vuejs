@@ -7,6 +7,7 @@
         <SectionNewsletter/>
         <SectionTips/>
         <SectionBanner/>
+        <SectionNewProducts/>
     </div>
 </template>
 
@@ -18,6 +19,9 @@ import SectionTestimonials from './SectionTestimonials.vue';
 import SectionNewsletter from './SectionNewsletter.vue';
 import SectionTips from './SectionTips.vue';
 import SectionBanner from './SectionBanner.vue';
+import SectionNewProducts from './SectionNewProducts.vue';
+
+
 
 export default {
     name: 'Main', 
@@ -28,7 +32,8 @@ export default {
         SectionTestimonials,
         SectionNewsletter,
         SectionTips,
-        SectionBanner
+        SectionBanner,
+        SectionNewProducts
     }
 }
 </script>
