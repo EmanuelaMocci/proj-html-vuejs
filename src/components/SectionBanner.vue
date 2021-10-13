@@ -83,14 +83,14 @@ export default {
 }
 .banner{
     display: flex;
-
     .img-left, .img-right{
         width: 100%;
+        height: 355px;
         background-color: black;
         position: relative;
         img{
-            height: 355px;
             width: 100%;
+            height: 100%;
             object-fit: cover;
             object-position: top;
             opacity: $opacity;
@@ -126,7 +126,7 @@ export default {
         @include centered;
         height: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
             .icons{
             text-align: center;
