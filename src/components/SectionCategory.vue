@@ -132,6 +132,11 @@ export default {
         @include pawBackground;
         background-position: center top;
         text-align: center;
+        &:hover{
+            transform: scale(1.05);
+            cursor: pointer;
+            box-shadow: 0px 0px 5px 3px #d1d0d0;
+        }
 
         h2{
             color: $textColor;
