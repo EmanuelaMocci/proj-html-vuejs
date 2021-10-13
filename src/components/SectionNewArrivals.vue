@@ -1,6 +1,6 @@
 <template>
     <div class="arrivals">
-            <div class="text-container"></div>
+            <div class="img-container"></div>
             <div class="text">
                 <div class="title">FIND THE BEST ANIMAL SUPPLIES</div>
                 <div class="description">New arrivals weekly</div>
@@ -42,7 +42,7 @@ export default {
     @include centered;
     background-color: black;
     position: relative;
-    .text-container{
+    .img-container{
         margin: 90px 0;
         background-image: url(../assets/img/banner-3-2x-scaled.jpg);
         background-position: top;
@@ -55,8 +55,9 @@ export default {
     .text{
         text-align: center;
         position: absolute;
-        top: 120px;
-        left: 350px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         .title{
             color: $textColor;
             font-weight: 700;
