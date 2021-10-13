@@ -3,7 +3,7 @@
         <div class="newsletter">
             <h2>Join our newsletter</h2>
             <div>Volutpat vel turpis nulla lorem sed semper. Aliquam sagittis sem libero viverra vehicula nullam ut nisl.</div>
-            <input type="text" placeholder="Insert you email...*">
+            <input type="text" placeholder="Insert your email...*">
             <button>Subscribe</button>
         </div>
     </div>
@@ -23,7 +23,7 @@ export default {
 }
 @mixin button{
     border: none;
-    padding: 12px 25px;
+    padding: 12px 45px;
     border-radius: 20px;
     font-size: $fontDescription;
 }
@@ -41,7 +41,7 @@ export default {
     background-repeat: no-repeat;
     height: 400px;
     margin-top: -90px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
     .newsletter{
         padding: 55px 100px;

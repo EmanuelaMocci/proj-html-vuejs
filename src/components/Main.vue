@@ -5,6 +5,7 @@
         <SectionBestSellers/>
         <SectionTestimonials/>
         <SectionNewsletter/>
+        <SectionTips/>
     </div>
 </template>
 
@@ -14,6 +15,8 @@ import SectionNewArrivals from './SectionNewArrivals.vue';
 import SectionBestSellers from './SectionBestSellers.vue';
 import SectionTestimonials from './SectionTestimonials.vue';
 import SectionNewsletter from './SectionNewsletter.vue';
+import SectionTips from './SectionTips.vue';
+
 
 
 
@@ -24,7 +27,8 @@ export default {
         SectionNewArrivals,
         SectionBestSellers,
         SectionTestimonials,
-        SectionNewsletter
+        SectionNewsletter,
+        SectionTips
     }
 }
 </script>
