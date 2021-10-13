@@ -157,6 +157,10 @@ export default {
             @include button;
             color: $textColor;
             background-color: $button;
+            &:hover{
+                background-color: $hoverBotton;
+                cursor: pointer;
+            }
         }
     }
 }

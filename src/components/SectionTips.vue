@@ -100,6 +100,10 @@ button{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    &:hover{
+        background-color: $hoverBotton;
+        cursor: pointer;
+    }
 }
 
 </style>

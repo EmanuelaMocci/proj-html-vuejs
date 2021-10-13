@@ -74,6 +74,11 @@ export default {
         }
         button{
             @include button;
+            &:hover{
+                background-color: $button;
+                color: white;
+                cursor: pointer;
+            }
         }
     }
 }

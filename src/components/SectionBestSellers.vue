@@ -77,6 +77,10 @@ export default {
             color: $textColor;
             background-color: $button;
             height: 35px;
+            &:hover{
+                background-color: $hoverBotton;
+                cursor: pointer;
+            }
         }
     }
     .img-container{

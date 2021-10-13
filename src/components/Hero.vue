@@ -19,9 +19,9 @@
         <div class="banner-container">
             <div class="banner"></div>
             <div class="text">
-                    <div class="title">FIND THE BEST ANIMAL SUPPLIES</div>
-                    <div class="description">We know animals are a part of your family, let us help take care of them.</div>
-                    <button>Learn more about us</button>
+                <div class="title">FIND THE BEST ANIMAL SUPPLIES</div>
+                <div class="description">We know animals are a part of your family, let us help take care of them.</div>
+                <button>Learn more about us</button>
             </div>
         </div>
         <div class="hero-bottom">
@@ -106,6 +106,11 @@ export default {
         }
         button{
             @include button;
+            &:hover{
+                background-color: $button;
+                color: white;
+                cursor: pointer;
+            }
         }
     }
 }
