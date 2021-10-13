@@ -23,9 +23,8 @@ export default {
 }
 @mixin button{
     border: none;
-    padding: 12px 45px;
+    padding: 13px 45px;
     border-radius: 20px;
-    font-size: $fontDescription;
 }
 @mixin h2Title{
     font-weight: 200;
@@ -61,7 +60,7 @@ export default {
         input{
             background-color: #f9f5f1;
             border: none;
-            padding: 12px 150px 12px 25px ;
+            padding: 13px 150px 13px 25px ;
             border-radius: 20px;
             margin: 50px 20px 0 0;
             outline: none;
@@ -70,6 +69,7 @@ export default {
             @include button;
             color: $textColor;
             background-color: $button;
+            font-size: $fontHero;
             &:hover{
                 background-color: $hoverBotton;
                 cursor: pointer;

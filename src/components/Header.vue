@@ -96,7 +96,7 @@ export default {
             display: flex;
             justify-content: center;
             li{
-                padding: 20px 15px;
+                padding: 5px 15px;
                 list-style: none;
                 a{
                     text-decoration: none;

@@ -3,7 +3,7 @@
     <Header :logo="require('./assets/img/dark-pet-logo.png')" :lists="menu"/>
     <Hero/>
     <Main/>
-    <!-- <Footer/>  -->
+    <Footer :logo="require('./assets/img/mobile-light-pet-logo-2x-400x105.png')" :shopLists="shopList" :links="link"/> 
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import Main from './components/Main.vue'
-// import Footer from './components/Footer.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -19,7 +19,7 @@ export default {
     Header,
     Hero,
     Main,
-    // Footer
+    Footer
   },
   data(){
     return{
@@ -59,6 +59,40 @@ export default {
           url: '#',
           stato: false,
           chevron: true
+        }
+      ],
+      shopList: [
+        {
+          titoloLista: 'Shop by brand'
+        },
+        {
+          titolo: 'Bed'
+        },
+        {
+          titolo: 'Food'
+        },
+        {
+          titolo: 'Toys'
+        },
+        {
+          titolo: 'Transport'
+        }
+      ],
+      link: [
+        {
+          titoloLink: 'Useful links'
+        },
+        {
+          titolo: 'My account'
+        },
+        {
+          titolo: 'Orders'
+        },
+        {
+          titolo: 'Checkout'
+        },
+        {
+          titolo: 'Cart'
         }
       ]
     }
