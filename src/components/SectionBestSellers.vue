@@ -8,21 +8,37 @@
         <div class="img-container">
             <div class="img">
                 <img src="../assets/img/product-21-400x400.jpg" alt="">
+                <div class="hover">
+                        <i class="far fa-check-square"></i>
+                        <div>VIEW CART</div>
+                </div>
                 <div>Transport cage</div>
                 <div class="price">$25.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-20-400x400.jpg" alt="">
+                <div class="hover">
+                    <i class="far fa-check-square"></i>
+                    <div>VIEW CART</div>
+                </div>
                 <div>Dog leash</div>
                 <div class="price">$25.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-16-400x400.jpg" alt="">
+                <div class="hover">
+                        <i class="far fa-check-square"></i>
+                        <div>VIEW CART</div>
+                </div>
                 <div>Animal transport cage</div>
                 <div class="price"><strike>$35.00</strike> $25.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-11-400x400.jpg" alt="">
+                <div class="hover">
+                        <i class="far fa-check-square"></i>
+                        <div>VIEW CART</div>
+                </div>
                 <div>Colorful cat leash</div>
                 <div class="price">$12.00</div>
             </div>
@@ -88,9 +104,35 @@ export default {
         justify-content: space-between;
 
         .img{
+            position: relative;
             margin: 40px 0;
             img{
                 width: 245px;
+            }
+            &:hover .hover{
+                display: block;
+                cursor: pointer;
+            }
+            .hover{
+                background-color: rgba(199,168,145, 0.8);
+                width: 245px;
+                height: 245px;
+                position: absolute;
+                top: -15px;
+                display: none;
+                div{
+                    color: $textColor;
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+                i{
+                    margin-top: 80px;
+                    font-size: 28px;
+                    color: $textColor;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    padding: 15px 17px;
+                    border-radius: 50%;
+                }
             }
             div{
                 text-align: center;

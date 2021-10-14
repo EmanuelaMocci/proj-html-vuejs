@@ -1,2 +1,9 @@
 // Importazione variabili
 @import'./variables.scss';
+
+// Reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

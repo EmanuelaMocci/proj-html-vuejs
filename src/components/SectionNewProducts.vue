@@ -5,32 +5,56 @@
         <div class="img-container">
             <div class="img">
                 <img src="../assets/img/product-8-400x400.jpg" alt="">
+                <div class="hover">
+                    <i class="far fa-check-square"></i>
+                    <div>VIEW CART</div>
+                </div>
                 <div>Colored pet bed</div>
                 <div class="price">$18.00 - $26.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-2-400x400.jpg" alt="">
+                <div class="hover">
+                    <i class="far fa-check-square"></i>
+                    <div>VIEW CART</div>
+                </div>
                 <div>Colorful ball set</div>
                 <div class="price">$29.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-3-400x400.jpg" alt="">
+                <div class="hover">
+                    <i class="far fa-check-square"></i>
+                    <div>VIEW CART</div>
+                </div>
                 <div>Dog bone</div>
                 <div class="price"><strike>$29.00</strike> $18.00</div>
                 <div class="sale">Sale!</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-4-400x400.jpg" alt="">
+                <div class="hover">
+                    <i class="far fa-check-square"></i>
+                    <div>VIEW CART</div>
+                </div>
                 <div>Animal transport bag</div>
                 <div class="price">$29.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-5-400x400.jpg" alt="">
+                <div class="hover">
+                    <i class="far fa-check-square"></i>
+                    <div>VIEW CART</div>
+                </div>
                 <div>Animal transport cage</div>
                 <div class="price">$35.00</div>
             </div>
             <div class="img">
                 <img src="../assets/img/product-10-400x400.jpg" alt="">
+                <div class="hover">
+                    <i class="far fa-check-square"></i>
+                    <div>VIEW CART</div>
+                </div>
                 <div>Closable cat litter</div>
                 <div class="price">$16.00</div>
             </div>
@@ -83,6 +107,31 @@ export default {
         position: relative;
         img{
             width: 348px;
+        }
+        &:hover .hover{
+            display: block;
+            cursor: pointer;
+        }
+        .hover{
+            background-color: rgba(199,168,145, 0.8);
+            width: 348px;
+            height: 348px;
+            position: absolute;
+            top: -15px;
+            display: none;
+            div{
+            color: $textColor;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        i{
+            margin-top: 130px;
+            font-size: 28px;
+            color: $textColor;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px 17px;
+            border-radius: 50%;
+        }
         }
         div{
             text-align: center;

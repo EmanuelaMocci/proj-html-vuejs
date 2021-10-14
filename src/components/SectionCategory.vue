@@ -12,18 +12,30 @@
             <div class="img-container">
                 <div class="img">
                     <img src="../assets/img/product-9-300x300.jpg" alt="">
+                    <div class="hover">
+                        <div>Bed</div>
+                    </div>
                     <div>Bed (1)</div>
                 </div>
                 <div class="img">
                     <img src="../assets/img/product-3-300x300.jpg" alt="">
+                    <div class="hover">
+                        <div>Food</div>
+                    </div>
                     <div>Food (6)</div>
                 </div>
                 <div class="img">
                     <img src="../assets/img/product-2-300x300.jpg" alt="">
+                    <div class="hover">
+                        <div>Toys</div>
+                    </div>
                     <div>Toys (6)</div>
                 </div>
                 <div class="img">
                     <img src="../assets/img/product-4-300x300.jpg" alt="">
+                    <div class="hover">
+                        <div>Transport</div>
+                    </div>
                     <div>Transport (6)</div>
                 </div>
             </div>
@@ -110,8 +122,27 @@ export default {
         @include centered;
 
         .img{
+            position: relative;
             img{
                 width: 260px;
+            }
+            &:hover .hover{
+                display: block;
+                cursor: pointer;
+            }
+            .hover{
+                background-color: rgba(199,168,145, 0.8);
+                width: 260px;
+                height: 260px;
+                position: absolute;
+                top: -20px;
+                display: none;
+                div{
+                    color: $textColor;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-top: 110px;
+                }
             }
             div{
                 text-align: center;

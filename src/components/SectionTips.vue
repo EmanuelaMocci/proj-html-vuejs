@@ -5,22 +5,38 @@
         <div class="img-container">
             <div class="img">
                 <img src="../assets/img/blog-1-400x400.jpg" alt="">
-                <div>How to 'loose leash walk' your dog</div>
+                <div class="hover">
+                    <div>How to 'loose leash walk' your dog</div>
+                    <div>Tips & tricks</div>
+                </div>
+                <div class="text">How to 'loose leash walk' your dog</div>
                 <div class="date">April 21st, 2020</div>
             </div>
             <div class="img">
                 <img src="../assets/img/blog-2-400x400.jpg" alt="">
-                <div>Stop cats from scratching furniture</div>
+                <div class="hover">
+                    <div>Stop cats from scratching furniture</div>
+                    <div>Tips & tricks</div>
+                </div>
+                <div class="text">Stop cats from scratching furniture</div>
                 <div class="date">April 19th, 2020</div>
             </div>
             <div class="img">
                 <img src="../assets/img/blog-3-400x400.jpg" alt="">
-                <div>Where to buy the best pet food</div>
+                <div class="hover">
+                    <div>Where to buy the best pet food</div>
+                    <div>Tips & tricks</div>
+                </div>
+                <div class="text">Where to buy the best pet food</div>
                 <div class="date">April 18th, 2020</div>
             </div>
             <div class="img">
                 <img src="../assets/img/blog-4-400x400.jpg" alt="">
-                <div>Proper care for your pet toys</div>
+                <div class="hover">
+                    <div>Proper care for your pet toys</div>
+                    <div>Tips & tricks</div>
+                </div>
+                <div class="text">Proper care for your pet toys</div>
                 <div class="date">April 17th, 2020</div>
             </div>
         </div>
@@ -76,10 +92,39 @@ export default {
 
     .img{
         margin: 40px 0;
+        position: relative;
         img{
             width: 245px;
         }
-        div{
+         &:hover .hover{
+            display: block;
+            cursor: pointer;
+        }
+        .hover{
+            background-color: rgba(193,153,130, 0.8);
+            width: 245px;
+            height: 245px;
+            position: absolute;
+            top: 0px;
+            display: none;
+
+            div:first-child{
+                color: $textColor;
+                font-weight: 500;
+                text-align: center;
+                font-family: $montserrat;
+                font-size: 18px;
+                margin: 32% 10% 3% 10%;
+            }
+            div:last-child{
+                color: $textColor;
+                text-align: center;
+                font-family: $montserrat;
+                font-size: $fontDescription;
+                font-weight: 500;
+            }
+        }
+        .text, .date{
             font-family: $montserrat;
             max-width: 190px;
             padding: 20px 0 0 25px;

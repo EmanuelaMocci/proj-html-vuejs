@@ -113,6 +113,21 @@ export default {
         }
     }
 }
+.logo{
+    width: 220px;
+    img{
+        width: 200px;
+    }
+    div{
+        color: $textColor;
+        font-family: $montserrat;
+        font-size: $fontDescription;
+        padding-top: 20px;
+        line-height: $lineheight3;
+        word-spacing: 1.5px;
+        letter-spacing: 1px;
+    }
+}
 .subscribe{
     width: 240px;
     background-color: #254229;
@@ -144,21 +159,6 @@ export default {
             background-color: $hoverBotton;
             cursor: pointer;
         }
-    }
-}
-.logo{
-    width: 220px;
-    img{
-        width: 200px;
-    }
-    div{
-        color: $textColor;
-        font-family: $montserrat;
-        font-size: $fontDescription;
-        padding-top: 20px;
-        line-height: $lineheight3;
-        word-spacing: 1.5px;
-        letter-spacing: 1px;
     }
 }
 .footer-bottom{
