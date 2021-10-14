@@ -29,7 +29,13 @@
         </div>
 
         <div class="footer-bottom">
-
+            <div class="menu-footer">
+                <ul>
+                    <li v-for="(footerList, index) in footerLists" :key="index">
+                        <a :href="footerList.url" :class="footerList.stato == true ? 'active' : '' ">{{footerList.titolo}}</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </template>
@@ -37,7 +43,7 @@
 <script>
 export default {
     name: 'Footer',
-    props: ['logo', 'shopLists', 'links']
+    props: ['logo', 'shopLists', 'links', 'footerLists']
 }
 </script>
 
@@ -77,6 +83,7 @@ export default {
         padding-top: 110px;
         display: flex;
         justify-content: space-between;
+        border-bottom: 2px solid #2d4030;
         .shop-list, .links{
             color: $textColor;
             font-family: $montserrat;
@@ -100,6 +107,7 @@ export default {
     background-color: #254229;
     @include pawBackground;
     border-radius: 5px;
+    margin-bottom: 50px;
     h3{
         @include footerFont;
         padding: 16px 0 16px 27px;
@@ -140,6 +148,30 @@ export default {
         line-height: $lineheight3;
         word-spacing: 1.5px;
         letter-spacing: 1px;
+    }
+}
+.footer-bottom{
+    .menu-footer{
+        ul{
+            display: flex;
+            justify-content: center;
+            padding: 30px 0;
+            li{
+                padding: 5px 15px;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: $linkFooter;
+                    font-size: $fontDescription;
+                    font-family: $montserrat;
+                    cursor: pointer;
+                }
+            }
+        }
+        .active{
+            color: $textColor;
+            font-weight: bold;
+        }
     }
 }
 

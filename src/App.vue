@@ -3,7 +3,7 @@
     <Header :logo="require('./assets/img/dark-pet-logo.png')" :lists="menu"/>
     <Hero/>
     <Main/>
-    <Footer :logo="require('./assets/img/mobile-light-pet-logo-2x-400x105.png')" :shopLists="shopList" :links="link"/> 
+    <Footer :logo="require('./assets/img/mobile-light-pet-logo-2x-400x105.png')" :shopLists="shopList" :links="link" :footerLists="footerBottom"/> 
   </div>
 </template>
 
@@ -93,6 +93,33 @@ export default {
         },
         {
           titolo: 'Cart'
+        }
+      ],
+      footerBottom: [
+        {
+          titolo: 'Home',
+          url: '#',
+          stato: true
+        },
+        {
+          titolo: 'About',
+          url: '#',
+          stato: false
+        },
+        {
+          titolo: 'Blog',
+          url: '#',
+          stato: false
+        },
+        {
+          titolo: 'Contacts',
+          url: '#',
+          stato: false
+        },
+        {
+          titolo: 'Shop',
+          url: '#',
+          stato: false
         }
       ]
     }
