@@ -36,6 +36,9 @@
                     </li>
                 </ul>
             </div>
+            <div class="icons-footer">
+                <i v-for="(icon, index) in icons" :key="index" :class="icon.titolo"></i>
+            </div>
         </div>
     </div>
 </template>
@@ -43,7 +46,7 @@
 <script>
 export default {
     name: 'Footer',
-    props: ['logo', 'shopLists', 'links', 'footerLists']
+    props: ['logo', 'shopLists', 'links', 'footerLists', 'icons']
 }
 </script>
 
@@ -75,7 +78,6 @@ export default {
     font-size: 16px;
 }
 .footer{
-    height: 600px;
     background-color: $heroColor;
     margin-top: 100px;
     .footer-top{
@@ -171,6 +173,14 @@ export default {
         .active{
             color: $textColor;
             font-weight: bold;
+        }
+    }
+    .icons-footer{
+        display: flex;
+        justify-content: center;
+        i{
+            color: $textColor;
+            padding: 0 15px 80px 0;
         }
     }
 }

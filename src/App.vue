@@ -3,7 +3,7 @@
     <Header :logo="require('./assets/img/dark-pet-logo.png')" :lists="menu"/>
     <Hero/>
     <Main/>
-    <Footer :logo="require('./assets/img/mobile-light-pet-logo-2x-400x105.png')" :shopLists="shopList" :links="link" :footerLists="footerBottom"/> 
+    <Footer :logo="require('./assets/img/mobile-light-pet-logo-2x-400x105.png')" :shopLists="shopList" :links="link" :footerLists="footerBottom" :icons="icon"/> 
   </div>
 </template>
 
@@ -120,6 +120,20 @@ export default {
           titolo: 'Shop',
           url: '#',
           stato: false
+        }
+      ],
+      icon: [
+        {
+          titolo: 'fab fa-facebook-f'
+        },
+        {
+          titolo: 'fab fa-twitter'
+        },
+        {
+          titolo: 'fab fa-instagram'
+        },
+        {
+          titolo: 'fab fa-youtube'
         }
       ]
     }
