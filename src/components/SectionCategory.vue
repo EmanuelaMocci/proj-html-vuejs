@@ -11,28 +11,28 @@
 
             <div class="img-container">
                 <div class="img">
-                    <img src="../assets/img/product-9-300x300.jpg" alt="">
+                    <img src="../assets/img/product-9-300x300.jpg" alt="Immagine prodotto cuccia">
                     <div class="hover">
                         <div>Bed</div>
                     </div>
                     <div>Bed (1)</div>
                 </div>
                 <div class="img">
-                    <img src="../assets/img/product-3-300x300.jpg" alt="">
+                    <img src="../assets/img/product-3-300x300.jpg" alt="Immagine prodotto cibo">
                     <div class="hover">
                         <div>Food</div>
                     </div>
                     <div>Food (6)</div>
                 </div>
                 <div class="img">
-                    <img src="../assets/img/product-2-300x300.jpg" alt="">
+                    <img src="../assets/img/product-2-300x300.jpg" alt="Immagine prodotto gioco">
                     <div class="hover">
                         <div>Toys</div>
                     </div>
                     <div>Toys (6)</div>
                 </div>
                 <div class="img">
-                    <img src="../assets/img/product-4-300x300.jpg" alt="">
+                    <img src="../assets/img/product-4-300x300.jpg" alt="Immagine prodotto trasportino">
                     <div class="hover">
                         <div>Transport</div>
                     </div>
@@ -45,19 +45,19 @@
             <div class="dog-food">
                 <h2>Kibble</h2>
                 <div>Dry dog food</div>
-                <img src="../assets/img/food-transparent-18.png" alt="">
+                <img src="../assets/img/food-transparent-18.png" alt="Immagine croccantini Kibble">
                 <button>Shop dry food</button>
             </div>
             <div class="dog-food">
                 <h2>Moist</h2>
                 <div>Canned dog food</div>
-                <img src="../assets/img/food-transparent-17.png" alt="">
+                <img src="../assets/img/food-transparent-17.png" alt="Immagine croccantini Moist">
                 <button>Shop dry food</button>
             </div>
             <div class="dog-food">
                 <h2>Frozen</h2>
                 <div>Freeze-Dried dog food</div>
-                <img src="../assets/img/food-transparent-16.png" alt="">
+                <img src="../assets/img/food-transparent-16.png" alt="Immagine croccantini Frozen">
                 <button>Shop dry food</button>
             </div>
         </div>

@@ -4,7 +4,7 @@
             <h4>Recent articlets</h4>
         <div class="img-container">
             <div class="img">
-                <img src="../assets/img/blog-1-400x400.jpg" alt="">
+                <img src="../assets/img/blog-1-400x400.jpg" alt="Immagine cane">
                 <div class="hover">
                     <div>How to 'loose leash walk' your dog</div>
                     <div>Tips & tricks</div>
@@ -13,7 +13,7 @@
                 <div class="date">April 21st, 2020</div>
             </div>
             <div class="img">
-                <img src="../assets/img/blog-2-400x400.jpg" alt="">
+                <img src="../assets/img/blog-2-400x400.jpg" alt="Immagine gatto">
                 <div class="hover">
                     <div>Stop cats from scratching furniture</div>
                     <div>Tips & tricks</div>
@@ -22,7 +22,7 @@
                 <div class="date">April 19th, 2020</div>
             </div>
             <div class="img">
-                <img src="../assets/img/blog-3-400x400.jpg" alt="">
+                <img src="../assets/img/blog-3-400x400.jpg" alt="Immagine gatto">
                 <div class="hover">
                     <div>Where to buy the best pet food</div>
                     <div>Tips & tricks</div>
@@ -31,7 +31,7 @@
                 <div class="date">April 18th, 2020</div>
             </div>
             <div class="img">
-                <img src="../assets/img/blog-4-400x400.jpg" alt="">
+                <img src="../assets/img/blog-4-400x400.jpg" alt="Immagine cane">
                 <div class="hover">
                     <div>Proper care for your pet toys</div>
                     <div>Tips & tricks</div>

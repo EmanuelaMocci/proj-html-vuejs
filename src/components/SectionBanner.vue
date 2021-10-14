@@ -3,7 +3,7 @@
         <div class="banner">
 
             <div class="img-left">
-                <img src="../assets/img/banner-8-2x.jpg" alt="">
+                <img src="../assets/img/banner-8-2x.jpg" alt="Immagine banner cane">
                 <div class="text">
                     <div class="title">FIND THE BEST ANIMAL SUPPLIES</div>
                     <h2 class="description">Popular accessories</h2>
@@ -12,7 +12,7 @@
             </div>
 
             <div class="img-right">
-                <img src="../assets/img/banner-9-2x.jpg" alt="">
+                <img src="../assets/img/banner-9-2x.jpg" alt="Immagine banner gatto">
                 <div class="text">
                     <div class="title">FIND THE BEST FOOD</div>
                     <h2 class="description">New food arrival</h2>

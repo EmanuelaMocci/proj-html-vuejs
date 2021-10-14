@@ -7,7 +7,7 @@
         </div>
         <div class="img-container">
             <div class="img">
-                <img src="../assets/img/product-21-400x400.jpg" alt="">
+                <img src="../assets/img/product-21-400x400.jpg" alt="Immagine prodotto gabbia">
                 <div class="hover">
                         <i class="far fa-check-square"></i>
                         <div>VIEW CART</div>
@@ -16,7 +16,7 @@
                 <div class="price">$25.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-20-400x400.jpg" alt="">
+                <img src="../assets/img/product-20-400x400.jpg" alt="Immagine prodotto guizaglio">
                 <div class="hover">
                     <i class="far fa-check-square"></i>
                     <div>VIEW CART</div>
@@ -25,7 +25,7 @@
                 <div class="price">$25.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-16-400x400.jpg" alt="">
+                <img src="../assets/img/product-16-400x400.jpg" alt="Immagine prodotto trasportino">
                 <div class="hover">
                         <i class="far fa-check-square"></i>
                         <div>VIEW CART</div>
@@ -34,7 +34,7 @@
                 <div class="price"><strike>$35.00</strike> $25.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-11-400x400.jpg" alt="">
+                <img src="../assets/img/product-11-400x400.jpg" alt="Immagine prodotto guinzaglio">
                 <div class="hover">
                         <i class="far fa-check-square"></i>
                         <div>VIEW CART</div>

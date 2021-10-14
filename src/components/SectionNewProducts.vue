@@ -4,7 +4,7 @@
             <h4>Latest products</h4>
         <div class="img-container">
             <div class="img">
-                <img src="../assets/img/product-8-400x400.jpg" alt="">
+                <img src="../assets/img/product-8-400x400.jpg" alt="Immagine prodotto cuccia">
                 <div class="hover">
                     <i class="far fa-check-square"></i>
                     <div>VIEW CART</div>
@@ -13,7 +13,7 @@
                 <div class="price">$18.00 - $26.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-2-400x400.jpg" alt="">
+                <img src="../assets/img/product-2-400x400.jpg" alt="Immagine prodotto gioco">
                 <div class="hover">
                     <i class="far fa-check-square"></i>
                     <div>VIEW CART</div>
@@ -22,7 +22,7 @@
                 <div class="price">$29.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-3-400x400.jpg" alt="">
+                <img src="../assets/img/product-3-400x400.jpg" alt="Immagine prodotto osso">
                 <div class="hover">
                     <i class="far fa-check-square"></i>
                     <div>VIEW CART</div>
@@ -32,7 +32,7 @@
                 <div class="sale">Sale!</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-4-400x400.jpg" alt="">
+                <img src="../assets/img/product-4-400x400.jpg" alt="Immagine prodotto trasportino">
                 <div class="hover">
                     <i class="far fa-check-square"></i>
                     <div>VIEW CART</div>
@@ -41,7 +41,7 @@
                 <div class="price">$29.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-5-400x400.jpg" alt="">
+                <img src="../assets/img/product-5-400x400.jpg" alt="Imamgine prodotto trasportino">
                 <div class="hover">
                     <i class="far fa-check-square"></i>
                     <div>VIEW CART</div>
@@ -50,7 +50,7 @@
                 <div class="price">$35.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-10-400x400.jpg" alt="">
+                <img src="../assets/img/product-10-400x400.jpg" alt="Immagine prodotto trasportino">
                 <div class="hover">
                     <i class="far fa-check-square"></i>
                     <div>VIEW CART</div>
