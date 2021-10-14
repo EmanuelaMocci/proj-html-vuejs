@@ -40,6 +40,11 @@
                 <i v-for="(icon, index) in icons" :key="index" :class="icon.titolo"></i>
             </div>
         </div>
+        <div class="copyright">
+            <div>
+                © Copyright 2012 - 2021 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress
+            </div>
+        </div>
     </div>
 </template>
 
@@ -76,6 +81,10 @@ export default {
     font-family: $montserrat;
     font-weight: 400;
     font-size: 16px;
+}
+@mixin spacing{
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 .footer{
     background-color: $heroColor;
@@ -182,6 +191,17 @@ export default {
             color: $textColor;
             padding: 0 15px 80px 0;
         }
+    }
+}
+.copyright{
+    background-color: black;
+    text-align: center;
+    div{
+        color: lightgray;
+        padding: 30px;
+        font-family: $montserrat;
+        font-size: 10px;
+        @include spacing;
     }
 }
 
