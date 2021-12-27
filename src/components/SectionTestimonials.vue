@@ -4,17 +4,17 @@
             <h2>Users testimonials</h2>
             <div class="reviews">
                 <div>
-                    <img src="../assets/img/avatar-3.jpg" alt="Immagine avatar">
+                    <img src="../assets/img/avatar-3.jpg" alt="Immagine avatar" data-aos="flip-left" data-aos-duration="3000" data-aos-delay="1000">
                     <div>Auctor est habitasse amet nunc, interdum vel mattis sodales cras. Ut nulla quis nunc, tincidunt eu. Eu</div>
                     <div class="name">Lisa Smith, ThemeFusion</div>
                 </div>
                 <div>
-                    <img src="../assets/img/avatar-1.jpg" alt="Immagine avatar">
+                    <img src="../assets/img/avatar-1.jpg" alt="Immagine avatar" data-aos="flip-left" data-aos-duration="3000" data-aos-delay="1000">
                     <div>Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat vestibulum ac diam sit.</div>
                     <div class="name">Melissa Green, ThemeFusion</div>
                 </div>
                 <div>
-                    <img src="../assets/img/avatar-4.jpg" alt="Immagine avatar">
+                    <img src="../assets/img/avatar-4.jpg" alt="Immagine avatar" data-aos="flip-left" data-aos-duration="3000" data-aos-delay="1000">
                     <div>Curabitur arcu erat, accumsan id imperdiet et, portttitor at sem. Proin eget tortor risus vestibulum ante aipsum.</div>
                     <div class="name">Sam Lewis, ThemeFusion</div>
                 </div>

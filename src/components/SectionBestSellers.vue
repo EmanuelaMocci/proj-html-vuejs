@@ -7,7 +7,7 @@
         </div>
         <div class="img-container">
             <div class="img">
-                <img src="../assets/img/product-21-400x400.jpg" alt="Immagine prodotto gabbia">
+                <img src="../assets/img/product-21-400x400.jpg" alt="Immagine prodotto gabbia" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="700">
                 <div class="hover">
                         <i class="far fa-check-square"></i>
                         <div>VIEW CART</div>
@@ -16,7 +16,7 @@
                 <div class="price">$25.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-20-400x400.jpg" alt="Immagine prodotto guizaglio">
+                <img src="../assets/img/product-20-400x400.jpg" alt="Immagine prodotto guizaglio" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="700">
                 <div class="hover">
                     <i class="far fa-check-square"></i>
                     <div>VIEW CART</div>
@@ -25,7 +25,7 @@
                 <div class="price">$25.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-16-400x400.jpg" alt="Immagine prodotto trasportino">
+                <img src="../assets/img/product-16-400x400.jpg" alt="Immagine prodotto trasportino" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="700">
                 <div class="hover">
                         <i class="far fa-check-square"></i>
                         <div>VIEW CART</div>
@@ -34,7 +34,7 @@
                 <div class="price"><strike>$35.00</strike> $25.00</div>
             </div>
             <div class="img">
-                <img src="../assets/img/product-11-400x400.jpg" alt="Immagine prodotto guinzaglio">
+                <img src="../assets/img/product-11-400x400.jpg" alt="Immagine prodotto guinzaglio" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="700">
                 <div class="hover">
                         <i class="far fa-check-square"></i>
                         <div>VIEW CART</div>

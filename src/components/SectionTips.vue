@@ -3,7 +3,7 @@
             <h2>Get the best tips and tricks</h2>
             <h4>Recent articlets</h4>
         <div class="img-container">
-            <div class="img">
+            <div class="img" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="900">
                 <img src="../assets/img/blog-1-400x400.jpg" alt="Immagine cane">
                 <div class="hover">
                     <div>How to 'loose leash walk' your dog</div>
@@ -12,7 +12,7 @@
                 <div class="text">How to 'loose leash walk' your dog</div>
                 <div class="date">April 21st, 2020</div>
             </div>
-            <div class="img">
+            <div class="img" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1000">
                 <img src="../assets/img/blog-2-400x400.jpg" alt="Immagine gatto">
                 <div class="hover">
                     <div>Stop cats from scratching furniture</div>
@@ -21,7 +21,7 @@
                 <div class="text">Stop cats from scratching furniture</div>
                 <div class="date">April 19th, 2020</div>
             </div>
-            <div class="img">
+            <div class="img" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1200">
                 <img src="../assets/img/blog-3-400x400.jpg" alt="Immagine gatto">
                 <div class="hover">
                     <div>Where to buy the best pet food</div>
@@ -30,7 +30,7 @@
                 <div class="text">Where to buy the best pet food</div>
                 <div class="date">April 18th, 2020</div>
             </div>
-            <div class="img">
+            <div class="img" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1300">
                 <img src="../assets/img/blog-4-400x400.jpg" alt="Immagine cane">
                 <div class="hover">
                     <div>Proper care for your pet toys</div>

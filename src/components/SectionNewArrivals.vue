@@ -2,9 +2,9 @@
     <div class="arrivals">
             <div class="img-container"></div>
             <div class="text">
-                <div class="title">FIND THE BEST ANIMAL SUPPLIES</div>
-                <div class="description">New arrivals weekly</div>
-                <button>Learn more about us</button>
+                <div class="title" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="700">FIND THE BEST ANIMAL SUPPLIES</div>
+                <div class="description" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="700">New arrivals weekly</div>
+                <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="700">Learn more about us</button>
             </div>
         </div>
 </template>
